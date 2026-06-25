@@ -56,7 +56,7 @@ import { Computed, Observer, Tween, Spring } from "@ReplicatedStorage/Packages/F
 
 - Lua already has `require()` that can be done in one line. However, it is not too ergonomic, and it can cause visual strain with repeated mentions of the module name or the keyword.
 - This is a huge change that can go against Lua's design philosophy. Though, we must weigh utiliarian and identity.
-- Adding a new import keyword alongside `require()` may cause inconsistencies in the collaborative environments.
+- Adding a new import keyword alongside `require()` may cause inconsistencies in collaborative environments.
 
 ## Alternatives
 
