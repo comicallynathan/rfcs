@@ -2,7 +2,7 @@
 
 ## Summary
 
-Allow developers to directly import only necessary parts of libraries or modules as a first-class variable.
+Allow developers to directly import only necessary parts of libraries or modules as first-class variables.
 
 ## Motivation
 
