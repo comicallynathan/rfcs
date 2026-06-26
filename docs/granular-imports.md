@@ -6,7 +6,7 @@ Allow developers to directly import only necessary parts of libraries or modules
 
 ## Motivation
 
-- Less boilerplate for importing commonly used methods; repeated prefixing methods with module names (e.g. `Fusion.Computed()`, `Fusion.Observer()`) creates visual noise
+- Less boilerplate for importing commonly used methods; repeatedly prefixing methods with module names (e.g. `Fusion.Computed()`, `Fusion.Observer()`) creates visual noise
 - People who work with React, Fusion, and other components-based toolings
 - Consistency with the incoming [`export`](https://github.com/luau-lang/rfcs/pull/42) keyword.
 - Reinforced with relative imports
@@ -37,6 +37,12 @@ Selectively import objects, methods, and other values from a module
 
 ```luau
 import { Dog } from "./Animals";
+```
+
+Selectively import objects, methods, and other values from a module under different names
+
+```luau
+import { Dog as dog } from "./Animals";
 ```
 
 Federalize the import
